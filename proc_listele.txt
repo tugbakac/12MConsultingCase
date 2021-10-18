@@ -1,0 +1,6 @@
+--procedür ile tablo verileri listelendi
+create proc proc_Listele
+as 
+select IslemTur,EvrakNo, Tarih, Miktar as [Giris Miktar], Miktar as [Cikis Miktar] from STI
+
+proc_Listele
